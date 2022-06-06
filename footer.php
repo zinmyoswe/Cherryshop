@@ -11,6 +11,8 @@
     font-weight: bold;
   }
 
+
+
 @media (max-width: 576px) {
 .home_con {
     height: 240px !important;
@@ -152,6 +154,7 @@
     font-size: 20px;
     text-transform: uppercase;
 }
+
 .home_con{
     height: 170px;
     background-color: #ede734;

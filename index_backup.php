@@ -37,7 +37,7 @@
     display: none;
     float: left;
     width: 100%;
-    height: 100%;
+    height: 600px;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -609,11 +609,7 @@ A NEW TAKE ON NMD</h1>
     </div>
     
   <!-- {{-- ======================= end of caro3 ==================== --}} -->
-<!--  {{-- ======================= start of what_is_hot ==================== --}} -->
 
-  <?php include('what_is_hot.php'); ?>
-
-    <!-- {{-- ======================= end of what_is_hot ==================== --}} -->
 <!--  {{-- ======================= start of bestofcherryshop ==================== --}} -->
 
   <?php include('bestofcherryshop.php'); ?>
@@ -622,15 +618,57 @@ A NEW TAKE ON NMD</h1>
 
  
 
-  <!--  {{-- ======================= start of TRENDING ================== --}} -->
+  <!--  {{-- ======================= start of TRENDING ==================== --}} -->
   <?php include('trending.php'); ?>
 
-    <!-- {{-- ======================= end of TRENDING ================== --}} -->
+    <!-- {{-- ======================= end of TRENDING ==================== --}} -->
 
- <!--  {{-- ======================= start of WHO ARE YOU SHOPPING FOR? ==================== --}} -->
-  
-  <?php include('who_shopping_for.php'); ?>
-    <!-- {{-- ======================= end of WHO ARE YOU SHOPPING FOR? ==================== --}} -->
+ <!--  {{-- ======================= start of caro4 ==================== --}} -->
+  <br>
+   <div class="container " style="max-width: 1280px;">
+    <h1 style="font-weight: bold; font-style: italic;">WHO ARE YOU SHOPPING FOR?</h1>
+    <div class="row">
+
+      <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
+         <div class="caro3">
+           <img src="admin/image/nav-women-d_tcm207-819363.jpg" class="caro3_img">
+           <div class="container">
+          <div class="carousel-caption">
+
+            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="border-radius: 20px;  margin-bottom: 25px; font-weight: bold; color: #fff;">WOMEN </a></p>
+          </div>
+        </div>
+         </div>
+      </div>
+
+       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
+         <div class="caro3">
+           <img src="admin/image/nav-men-d_tcm207-819364.jpg" class="caro3_img">
+             <div class="container">
+          <div class="carousel-caption">
+
+            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="border-radius: 20px;  margin-bottom: 25px;font-weight: bold; color: #fff;">MEN </a></p>
+          </div>
+        </div>
+         </div>
+      </div>
+
+       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
+         <div class="caro3">
+           <img src="admin/image/nav-kids-d_tcm207-819367.jpg" class="caro3_img">
+             <div class="container">
+          <div class="carousel-caption">
+
+            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="border-radius: 20px;  margin-bottom: 25px;font-weight: bold; color: #fff;">KIDS</a></p>
+          </div>
+        </div>
+         </div>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- {{-- ======================= end of caro4 ==================== --}} -->
 
     <!-- {{-- ======================= start of bestseller ==================== --}} -->
         
@@ -693,7 +731,7 @@ A NEW TAKE ON NMD</h1>
 <div class="seo-component-container___NLzc8">
     <div class="container">
         <div class="row">
-            <div class="col-sm-5 col-lg-5 col-xs-12 offset-lg-1  seo-first-column___11FNY ">
+            <div class="col-sm-6 col-lg-11 col-xl-10 col-hg-9 col-sm-12 offset-lg-1 offset-xl-2 offset-hg-3 seo-first-column___11FNY ">
               <h2 class="gl-label gl-label--m gl-label--bold seo-heading___33M96">STORIES, STYLES AND SPORTSWEAR AT ADIDAS, SINCE 1949</h2>
               <div class="gl-body gl-body--s seo-content___1f6HA">
                 Sport keeps us fit. Keeps you mindful. Brings us together. Through sport we have the power to change lives. Whether it is through stories of inspiring athletes. Helping you to get up and get moving. Sportswear featuring the latest technologies, to up your performance. Beat your PB.adidas offers a home to the runner, the basketball player, the soccer kid, the fitness enthusiast. The weekend hiker that loves to escape the city. The yoga teacher that spreads the moves. The 3-Stripes are seen in the music scene. On stage, at festivals. Our sports clothing keeps you focused before that whistle blows. During the race. And at the finish lines. We’re here to supportcreators. Improve their game. Their lives. And change the world.
@@ -702,7 +740,7 @@ A NEW TAKE ON NMD</h1>
               </div>
             </div>
 
-            <div class="col-sm-5 col-lg-5 col-xs-12 offset-lg-1  seo-first-column___11FNY ">
+            <div class="col-sm-6 col-lg-11 col-xl-10 col-hg-9 col-sm-12 offset-lg-1 offset-xl-2 offset-hg-3 seo-first-column___11FNY ">
                
 <h2 class="gl-label gl-label--m gl-label--bold seo-heading___33M96">WORKOUT CLOTHES, FOR ANY SPORT</h2>
               <div class="gl-body gl-body--s seo-content___1f6HA">
