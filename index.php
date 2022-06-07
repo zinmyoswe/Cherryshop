@@ -626,8 +626,8 @@ A NEW TAKE ON NMD</h1>
     <!-- {{-- ======================= end of bestofcherryshop ==================== --}} -->
 
     <!--  {{-- ======================= start of best_of_product ==================== --}} -->
-
-  
+    <br><br>
+  <?php include('best_of_product.php'); ?>
 
     <!-- {{-- ======================= end of best_of_product ==================== --}} -->
 

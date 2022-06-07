@@ -23,7 +23,7 @@
 
 .caro6_title{
   margin-top: 10px;
-  height: 90px;
+  height: 110px;
 }
 
 .summary___3soIS {
@@ -74,7 +74,7 @@ p, .gl-body, .gl-paragraph {
     font-size: 10px;
     line-height: 16px;
     color: #fff;
-    /*margin-bottom: 16px;*/
+    margin-bottom: 16px;
 }
 }
 

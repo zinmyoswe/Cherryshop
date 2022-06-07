@@ -7,7 +7,7 @@
 
         <title></title>
 
-        <link rel="icon" type="image/png" href="image/s-logo.png"/>
+        <link rel="icon" type="image/jpg" href="admin/image/cherry-logo-black2.jpg" style="width: 25px; height: 10px;" />
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
 
         <!-- Bootstrap @4.6.1 CSS -->
