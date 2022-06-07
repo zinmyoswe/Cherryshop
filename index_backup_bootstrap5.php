@@ -21,6 +21,10 @@
         -ms-user-select: none;
         user-select: none;
       }
+
+      
+      
+      
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -37,7 +41,7 @@
     display: none;
     float: left;
     width: 100%;
-    height: 600px;
+    height: 100%;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -168,10 +172,19 @@ h4{
   
 
   #myvideo2{
-    /*display: flex;*/
-    /*width: 100%;
+    /*display: flex;
+    width: 100%;
     height: 100%;*/
   }
+
+  
+  /*testing carousel place area*/
+  /*.carousel-caption {
+
+    margin-top: 0px;
+    background-color: red;
+}*/
+
 
 
 }
@@ -186,9 +199,13 @@ h4{
   }
 
   #myvideo2{
-    /*display: flex;*/
-    /*width: 100%;
-    height: 100%;*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cc2{
+    margin-bottom: 100px !important;
   }
 }
 
@@ -224,7 +241,7 @@ h4{
     
   }
   .carousel-caption{
-   margin-bottom: 130px !important;
+   /*margin-bottom: 130px !important;*/
   }
 
   .cc1{
@@ -300,24 +317,29 @@ h4{
     <!-- Custom styles for this template -->
    <main role="main">
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+    
     <div class="carousel-inner">
        <div class="carousel-item active">
 
         <img src="admin/image/sustainability-ss22-rfto-sustain-hp-mh-02-d_tcm143-885345.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
-          <div class="carousel-caption text-left">
+          <div class="carousel-caption text-start cc4">
             <h1 style="color: #000; font-weight: bold;">RUN FOR THE OCEANS</h1>
             <p style="color: #000;">Every action counts. Discover our Run For The <br>Oceans collection, made to help end plastic waste.</p>
 
             <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
-            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="margin-bottom: 120px">LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="
+            @media (max-width: 1024px) {margin-bottom: 120px} 
+            @media (max-width: 576px) {margin-bottom: 20px}
+            @media (max-width: 768px) {margin-bottom: 20px}
+            @media (max-width: 360px) {margin-bottom: 0px}">LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div> <!-- carousel-item 1 end -->
@@ -373,7 +395,7 @@ h4{
 
 
         <div class="container">
-          <div class="carousel-caption text-left cc3" style="margin-bottom: 140px; color: #fff;">
+          <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #fff;">
             <h1 style="font-weight: bold;">ROZWEEGO. BE THE REAL YOU.</h1>
             <p>Bold, chunky style bridging the gap between past <br>and future.</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button" >SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
@@ -407,23 +429,29 @@ How I feel today is what I decide</p>
         <img src="admin/image/2335900---CAM_Onsite_3-Stripes-Day_SALE_HP-GLP-Masthead_2880x720_tcm207-882373.jpg" alt="" width="100%" height="100%" fill="#777">
 
         <div class="container">
-          <div class="carousel-caption text-left">
+          <div class="carousel-caption text-start">
            
             <p>Discount applied at cart. Exclusions apply. Terms <br>and conditions.</p>
-            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="margin-bottom: 130px">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="@media (max-width: 1024px) {margin-bottom: 130px} 
+            @media (max-width: 576px) {margin-bottom: 20px}
+            @media (max-width: 768px) {margin-bottom: 20px}
+            @media (max-width: 360px) {margin-bottom: 0px}">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div>
       <!-- carousel-item 4 end -->
     </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+   
   </div>
 
 
@@ -482,7 +510,7 @@ How I feel today is what I decide</p>
 
 
         <div class="container">
-          <div class="carousel-caption text-left cc3" style="margin-bottom: 140px; color: #fff;">
+          <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #fff;">
             <h1 style="font-weight: bold;">
 A NEW TAKE ON NMD</h1>
             <p>There's no limit to your style expansion. Explore the <br>new NMD_V3.</p>
@@ -507,7 +535,13 @@ A NEW TAKE ON NMD</h1>
 
         <img src="admin/image/YZY_FOAM_RNR_ONYX_FAM-D_tcm207-893481.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
-          <div class="carousel-caption text-left cc2" style="margin-bottom: 140px; color: #000;" >
+
+          <div class="carousel-caption text-start " style="margin-bottom: 120px; color: #000;
+          
+          
+            @media (max-width: 768px) {margin-bottom: 20px !important}
+            
+          " >
             <h1 style="font-weight: bold;">YZY FOAM RNR ONYX</h1>
             <p>AVAILABLE THROUGH THE ADIDAS APP. DOWNLOAD,<br> REGISTER, PARTICIPATE</p>
             <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SIGN UP NOW <i class="fa fa-arrow-right"></i></a></p>
@@ -572,7 +606,7 @@ A NEW TAKE ON NMD</h1>
 
 
         <div class="container">
-          <div class="carousel-caption text-left cc3" style="margin-bottom: 140px; color: #fff;">
+          <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #fff;">
             <h1 style="font-weight: bold;">RUN FOR THE OCEANS</h1>
             <p>t's time to put on your running shoes and Run For<br> The Oceans. Every minute counts.</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button" >LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
@@ -594,7 +628,7 @@ A NEW TAKE ON NMD</h1>
 
         <img src="admin/image/real-madrid-hp-mh-d_tcm207-894592.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
-          <div class="carousel-caption text-left cc2" style="margin-bottom: 140px; color: #fff;" >
+          <div class="carousel-caption text-start" style="margin-bottom: 140px; color: #fff;" >
             <h1 style="font-weight: bold;">REAL MADRID</h1>
             <br><br>
             <p>CHAMPIONS OF EUROPE</p>
@@ -609,7 +643,17 @@ A NEW TAKE ON NMD</h1>
     </div>
     
   <!-- {{-- ======================= end of caro3 ==================== --}} -->
+<!--  {{-- ======================= start of what_is_hot ==================== --}} -->
 
+  <?php include('test.php'); ?>
+
+    <!-- {{-- ======================= end of what_is_hot ==================== --}} -->
+
+<!--  {{-- ======================= start of what_is_hot ==================== --}} -->
+
+  <?php include('what_is_hot.php'); ?>
+
+    <!-- {{-- ======================= end of what_is_hot ==================== --}} -->
 <!--  {{-- ======================= start of bestofcherryshop ==================== --}} -->
 
   <?php include('bestofcherryshop.php'); ?>
@@ -618,57 +662,15 @@ A NEW TAKE ON NMD</h1>
 
  
 
-  <!--  {{-- ======================= start of TRENDING ==================== --}} -->
+  <!--  {{-- ======================= start of TRENDING ================== --}} -->
   <?php include('trending.php'); ?>
 
-    <!-- {{-- ======================= end of TRENDING ==================== --}} -->
+    <!-- {{-- ======================= end of TRENDING ================== --}} -->
 
- <!--  {{-- ======================= start of caro4 ==================== --}} -->
-  <br>
-   <div class="container " style="max-width: 1280px;">
-    <h1 style="font-weight: bold; font-style: italic;">WHO ARE YOU SHOPPING FOR?</h1>
-    <div class="row">
-
-      <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
-         <div class="caro3">
-           <img src="admin/image/nav-women-d_tcm207-819363.jpg" class="caro3_img">
-           <div class="container">
-          <div class="carousel-caption">
-
-            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="border-radius: 20px;  margin-bottom: 25px; font-weight: bold; color: #fff;">WOMEN </a></p>
-          </div>
-        </div>
-         </div>
-      </div>
-
-       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
-         <div class="caro3">
-           <img src="admin/image/nav-men-d_tcm207-819364.jpg" class="caro3_img">
-             <div class="container">
-          <div class="carousel-caption">
-
-            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="border-radius: 20px;  margin-bottom: 25px;font-weight: bold; color: #fff;">MEN </a></p>
-          </div>
-        </div>
-         </div>
-      </div>
-
-       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
-         <div class="caro3">
-           <img src="admin/image/nav-kids-d_tcm207-819367.jpg" class="caro3_img">
-             <div class="container">
-          <div class="carousel-caption">
-
-            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="border-radius: 20px;  margin-bottom: 25px;font-weight: bold; color: #fff;">KIDS</a></p>
-          </div>
-        </div>
-         </div>
-      </div>
-
-    </div>
-    </div>
-
-    <!-- {{-- ======================= end of caro4 ==================== --}} -->
+ <!--  {{-- ======================= start of WHO ARE YOU SHOPPING FOR? ==================== --}} -->
+  
+  <?php include('who_shopping_for.php'); ?>
+    <!-- {{-- ======================= end of WHO ARE YOU SHOPPING FOR? ==================== --}} -->
 
     <!-- {{-- ======================= start of bestseller ==================== --}} -->
         
@@ -731,7 +733,7 @@ A NEW TAKE ON NMD</h1>
 <div class="seo-component-container___NLzc8">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-lg-11 col-xl-10 col-hg-9 col-sm-12 offset-lg-1 offset-xl-2 offset-hg-3 seo-first-column___11FNY ">
+            <div class="col-sm-5 col-lg-5 col-xs-12 offset-lg-1  seo-first-column___11FNY ">
               <h2 class="gl-label gl-label--m gl-label--bold seo-heading___33M96">STORIES, STYLES AND SPORTSWEAR AT ADIDAS, SINCE 1949</h2>
               <div class="gl-body gl-body--s seo-content___1f6HA">
                 Sport keeps us fit. Keeps you mindful. Brings us together. Through sport we have the power to change lives. Whether it is through stories of inspiring athletes. Helping you to get up and get moving. Sportswear featuring the latest technologies, to up your performance. Beat your PB.adidas offers a home to the runner, the basketball player, the soccer kid, the fitness enthusiast. The weekend hiker that loves to escape the city. The yoga teacher that spreads the moves. The 3-Stripes are seen in the music scene. On stage, at festivals. Our sports clothing keeps you focused before that whistle blows. During the race. And at the finish lines. We’re here to supportcreators. Improve their game. Their lives. And change the world.
@@ -740,7 +742,7 @@ A NEW TAKE ON NMD</h1>
               </div>
             </div>
 
-            <div class="col-sm-6 col-lg-11 col-xl-10 col-hg-9 col-sm-12 offset-lg-1 offset-xl-2 offset-hg-3 seo-first-column___11FNY ">
+            <div class="col-sm-5 col-lg-5 col-xs-12 offset-lg-1  seo-first-column___11FNY ">
                
 <h2 class="gl-label gl-label--m gl-label--bold seo-heading___33M96">WORKOUT CLOTHES, FOR ANY SPORT</h2>
               <div class="gl-body gl-body--s seo-content___1f6HA">

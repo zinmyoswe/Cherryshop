@@ -43,6 +43,11 @@
   transform: translateX(0);
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 
   </style>
   <body>
@@ -50,7 +55,7 @@
     <h2 class="font-weight-light">Bootstrap Multi Slide Carousel</h2>
     <div class="row mx-auto my-auto justify-content-center">
         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner aa" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-3">
                         <div class="card">

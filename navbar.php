@@ -1,233 +1,148 @@
 <?php 
 error_reporting(0); 
 ?>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
 <style type="text/css">
-  .form-inline .form-control {
-    display: inline-block;
-    width: 400px;
-    vertical-align: middle;
+.navbar {
+  font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+}
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+  
+} 
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
 }
 
+@media all and (min-width: 992px) {
+  .navbar .dropdown-menu-end{ right:0; left: auto;  }
+  .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+  .navbar .nav-item:hover .nav-link{ color: #fff;  }
+  .navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+  .navbar .dropdown-menu.fade-up{ top:180%;  }
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+} 
+/* ============ mobile view .end// ============ */
 
-#searchResult{
- list-style: none;
- padding: 0px;
- width: 407px;
- position: absolute;
- margin: 0;
-  opacity: 10.95;
-  z-index: 10;
-  font-size: 12px;
-}
-
-#searchResult li{
- background: #fff;
- color: #000;
- padding: 4px;
- margin-bottom: 1px solid white;
- border-radius: 2px;
-
-}
-
-#searchResult li:nth-child(even){
- background: #fff;
- color: #000;
-}
-
-#searchResult li a{
- cursor: pointer;
- color: #666;
-}
-
-#searchResult li a:hover{
- cursor: pointer;
- color: teal;
-}
-
-/*#searchResult img{
-  width: 40px;
-  height: 50px;
-}
-*/
-/*input[type=text]{
- padding: 5px;
- width: 400px;
- letter-spacing: 1px;
- margin-left: 4px;
-
-
-}*/
-.bg-light {
-    background-color: #FFF !important;
-}
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #000;
+    text-decoration: : underline;
+    margin-bottom: 4px solid black;
 }
-.bg-dark {
-    background-color: #000 !important;
+
+li a {
+    color: #000;
+    text-decoration: none;
 }
-
-
-
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand" href="index.php"><img src="admin/image/cherry-logo-black2.jpg" style=" height: 28px;"><b>SHOP</b></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(){
+        /////// Prevent closing from click inside dropdown
+        document.querySelectorAll('.dropdown-menu').forEach(function(element){
+          element.addEventListener('click', function (e) {
+            e.stopPropagation();
+          });
+        })
+    }); 
+  // DOMContentLoaded  end
+</script>
+<!-- ============= COMPONENT ============== -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="admin/image/cherry-logo-black2.jpg" style=" height: 28px;"><b>SHOP</b></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse" id="main_nav">
+    <ul class="navbar-nav">
+      <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+      <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+      <li class="nav-item"><a class="nav-link" href="#"> Services </a></li>
+      <li class="nav-item dropdown has-megamenu">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mega menu  </a>
+        <div class="dropdown-menu fade-down megamenu " role="menu">
+          <div class="row g-3">
+            <div class="col-lg-3 col-6">
+              <div class="col-megamenu">
+                <h6 class="title">Title Menu One</h6>
+                <ul class="list-unstyled">
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                </ul>
+              </div>  <!-- col-megamenu.// -->
+            </div><!-- end col-3 -->
+            <div class="col-lg-3 col-6">
+              <div class="col-megamenu">
+                <h6 class="title">Title Menu Two</h6>
+                <ul class="list-unstyled">
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                </ul>
+              </div>  <!-- col-megamenu.// -->
+            </div><!-- end col-3 -->
+            <div class="col-lg-3 col-6">
+              <div class="col-megamenu">
+                <h6 class="title">Title Menu Three</h6>
+                <ul class="list-unstyled">
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                </ul>
+              </div>  <!-- col-megamenu.// -->
+            </div>    
+            <div class="col-lg-3 col-6">
+              <div class="col-megamenu">
+                <h6 class="title">Title Menu Four</h6>
+                <ul class="list-unstyled">
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                  <li><a href="#">Custom Menu</a></li>
+                </ul>
+              </div>  <!-- col-megamenu.// -->
+            </div><!-- end col-3 -->
+          </div><!-- end row --> 
+        </div> <!-- dropdown-mega-menu.// -->
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="product.php">Shop</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="product.php">Sale</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="best-seller.php">Best Seller</a>
-      </li>
-
-       <?php
-          if(isset($_SESSION['cart'])) {
-
-            $total = 0;
-            $itemqty = 0;
-      
-            foreach($_SESSION['cart'] as $product_id => $quantity) {
-
-            $result = "SELECT  product_name, qty, price FROM product WHERE id = $product_id";
-            $run = mysqli_query($mysqli,$result);
-            
-
-            if($run){
-
-              while($obj = mysqli_fetch_object($run)) {
-                $cost = $obj->price * $quantity; //work out the line cost
-                $total = $total + $cost; //add to the total cost
-                $itemqty = $itemqty+$quantity;               
-              }
-            }
-          }
-          ?>
-           <li class="nav-item">
-        <a class="nav-link" href="cart.php">Cart<span class="badge badge-pill badge-warning"><?php echo $itemqty ?></span></a>
-      </li>
-       <?php  } ?>
-      
-      
-   
     </ul>
-    
-            
-        <!-- Script -->
-        <script>
-        var fetch = angular.module('myapp', []);
-
-        fetch.controller('fetchCtrl', ['$scope', '$http', function ($scope, $http) {
-            
-            // Fetch data
-            $scope.fetchUsers = function(){
-                
-                var searchText_len = $scope.searchText.trim().length;
-
-                // Check search text length
-                if(searchText_len > 0){
-                    $http({
-                    method: 'post',
-                    url: 'getData.php',
-                    data: {searchText:$scope.searchText}
-                    }).then(function successCallback(response) {
-                        $scope.searchResult = response.data;
-                    });
-                }else{
-                    $scope.searchResult = {};
-                }
-                
-            }
-
-            // Set value to search box
-            $scope.setValue = function(index,$event){
-                $scope.searchText = $scope.searchResult[index].name;
-                $scope.searchResult = {};
-                $event.stopPropagation();
-            }
-
-            $scope.searchboxClicked = function($event){
-                $event.stopPropagation();
-            }
-
-            $scope.containerClicked = function(){
-                $scope.searchResult = {};
-            }
-            
-        }]);
-
-        </script>
-      <!-- ----  search engin angular & php end --- -->
-
-  
-      
-      <ul class="navbar-nav">
-
-       
-       <?php if(!isset($_SESSION['email'])){ ?>
-        
-         
-            <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          LOGIN/REGISTER
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="checkout.php">LOGIN</a>
-          <a class="dropdown-item" href="ajax-registration-script-with-php-mysql-and-jquery/index.php">REGISTER</a>
-          
-        </div>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dropdown right </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+          <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+          </ul>
       </li>
-       <?php } else{ ?>
-
-        <?php
-      //get user
-        include('confs/config.php');
-    $email = $_SESSION['email'];
-    $sql_customer = mysqli_query($mysqli,"SELECT * FROM customer WHERE email = '$email'");
-    $row_customer = mysqli_fetch_assoc($sql_customer);
-
-?>
-          <li class="nav-item">
-
-        <a class="nav-link" href="myorder.php" style="text-transform: uppercase;"> <i class="far fa-user"></i> <?php echo $row_customer['name'] ?> </a>
-      </li>
-   
-             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          LOGOUT
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="logout.php">LOGOUT</a>
-          <a class="dropdown-item" href="myorder.php">Dashboard</a>
-          
-        </div>
-      </li>
-        <?php } ?>
-      </ul>
-
-      <form method="get" action="search.php" class="form-inline my-2 my-lg-0">
-   <div class='soso' ng-controller="fetchCtrl" ng-click='containerClicked();' >
-        
-           <input type='text' name="user_query" class="form-control mr-sm-2" ng-keyup='fetchUsers()' ng-click='searchboxClicked($event);' ng-model='searchText' placeholder='Search...'><br>
-            <ul id='searchResult' >
-                <li ng-click='setValue($index,$event)' ng-repeat="result in searchResult" >
-                  <a href="detail2.php?id={{result.id}}">
-                  <img ng-src="admin/cover/{{ result.cover }}" width="30px" height="40px"> {{ result.name }}</a>
-                </li>
-            </ul>  
-        </div>
-          <button name="search" class="btn btn-outline-dark my-2 my-sm-0" type="submit"><span class="fa fa-search"></span></button>
-    </form>
-  </div>
+    </ul>
+  </div> <!-- navbar-collapse.// -->
+</div> <!-- container-fluid.// -->
 </nav>
+<!-- ============= COMPONENT END// ============== -->

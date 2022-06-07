@@ -23,15 +23,59 @@
 
 .caro6_title{
   margin-top: 10px;
-  height: 80px;
+  height: 90px;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+.summary___3soIS {
+    padding-top: var(--gl-spacing-0050);
+    margin: 0;
+}
+p, .gl-body, .gl-paragraph {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+.title___3i4il {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
   /*.slide-box img {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }*/
+
+  .caro6_img{
+  
+  width: 100%;
+  height: 100%;
+  
+}
+
+.caro6_video{
+  margin-top: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
+  .caro6_title{
+  margin-top: 10px;
+  height: 90px;
+}
+
+  .caro6_button{
+      margin-top: 10px;
+  }
+
+  p, .gl-body, .gl-paragraph {
+    font-size: 10px;
+    line-height: 16px;
+    color: #fff;
+    /*margin-bottom: 16px;*/
+}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -51,18 +95,14 @@
   }*/
 }
 
-.carousel-caption {
-  
-  padding: 20px;
-  border-radius: .5rem;
-}
+
 </style>
 
 <br>
 <div class="container" style="max-width: 1280px;">
   <h1 style="font-weight: bold; font-style: italic;">WHAT'S HOT</h1>
   <div class="row">
-    <div id="carousel2" class="carousel slide" data-ride="carousel2">
+    <div id="carousel2" class="carousel slide" data-ride="carousel2" >
       <ol class="carousel-indicators">
         <li data-target="#carousel2" data-slide-to="0" class="active"></li>
         <li data-target="#carousel2" data-slide-to="1"></li>
@@ -71,7 +111,7 @@
         <div class="carousel-item active">
           <div class="d-none d-lg-block d-md-block d-sm-block d-block">
             <div class="slide-box">
-              <div class="col-lg-3 col-sm-6 col-xs-12 mb-3">
+              <div class="col-lg-3 col-sm-6 mb-3">
          <div class="caro6">
            <img src="admin/image/ezgif-2-4bdb5a7002.jpg" class="caro6_img" style="display: flex">
            

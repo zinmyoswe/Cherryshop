@@ -37,7 +37,7 @@
     display: none;
     float: left;
     width: 100%;
-    height: 100%;
+    height: 600px;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -609,27 +609,38 @@ A NEW TAKE ON NMD</h1>
     </div>
     
   <!-- {{-- ======================= end of caro3 ==================== --}} -->
+
 <!--  {{-- ======================= start of what_is_hot ==================== --}} -->
 
   <?php include('what_is_hot.php'); ?>
 
+  <br>
+
     <!-- {{-- ======================= end of what_is_hot ==================== --}} -->
+<!--  {{-- ======================= start of bestofcherryshop ==================== --}} -->
+
 <!--  {{-- ======================= start of bestofcherryshop ==================== --}} -->
 
   <?php include('bestofcherryshop.php'); ?>
 
     <!-- {{-- ======================= end of bestofcherryshop ==================== --}} -->
 
+    <!--  {{-- ======================= start of best_of_product ==================== --}} -->
+
+  
+
+    <!-- {{-- ======================= end of best_of_product ==================== --}} -->
+
  
 
-  <!--  {{-- ======================= start of TRENDING ================== --}} -->
+  <!--  {{-- ======================= start of TRENDING ==================== --}} -->
   <?php include('trending.php'); ?>
 
-    <!-- {{-- ======================= end of TRENDING ================== --}} -->
+    <!-- {{-- ======================= end of TRENDING ==================== --}} -->
 
  <!--  {{-- ======================= start of WHO ARE YOU SHOPPING FOR? ==================== --}} -->
-  
   <?php include('who_shopping_for.php'); ?>
+
     <!-- {{-- ======================= end of WHO ARE YOU SHOPPING FOR? ==================== --}} -->
 
     <!-- {{-- ======================= start of bestseller ==================== --}} -->
@@ -693,7 +704,7 @@ A NEW TAKE ON NMD</h1>
 <div class="seo-component-container___NLzc8">
     <div class="container">
         <div class="row">
-            <div class="col-sm-5 col-lg-5 col-xs-12 offset-lg-1  seo-first-column___11FNY ">
+            <div class="col-sm-6 col-lg-11 col-xl-10 col-hg-9 col-sm-12 offset-lg-1 offset-xl-2 offset-hg-3 seo-first-column___11FNY ">
               <h2 class="gl-label gl-label--m gl-label--bold seo-heading___33M96">STORIES, STYLES AND SPORTSWEAR AT ADIDAS, SINCE 1949</h2>
               <div class="gl-body gl-body--s seo-content___1f6HA">
                 Sport keeps us fit. Keeps you mindful. Brings us together. Through sport we have the power to change lives. Whether it is through stories of inspiring athletes. Helping you to get up and get moving. Sportswear featuring the latest technologies, to up your performance. Beat your PB.adidas offers a home to the runner, the basketball player, the soccer kid, the fitness enthusiast. The weekend hiker that loves to escape the city. The yoga teacher that spreads the moves. The 3-Stripes are seen in the music scene. On stage, at festivals. Our sports clothing keeps you focused before that whistle blows. During the race. And at the finish lines. We’re here to supportcreators. Improve their game. Their lives. And change the world.
@@ -702,7 +713,7 @@ A NEW TAKE ON NMD</h1>
               </div>
             </div>
 
-            <div class="col-sm-5 col-lg-5 col-xs-12 offset-lg-1  seo-first-column___11FNY ">
+            <div class="col-sm-6 col-lg-11 col-xl-10 col-hg-9 col-sm-12 offset-lg-1 offset-xl-2 offset-hg-3 seo-first-column___11FNY ">
                
 <h2 class="gl-label gl-label--m gl-label--bold seo-heading___33M96">WORKOUT CLOTHES, FOR ANY SPORT</h2>
               <div class="gl-body gl-body--s seo-content___1f6HA">

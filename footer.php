@@ -1,7 +1,7 @@
 <style type="text/css">
   a{
     color: black;
-    background-color: 
+    background-color: ;
   }
   .home_con3{
 
@@ -141,9 +141,11 @@
      
         footer a{
             color: #000;
+            text-decoration: none;
         }
         footer a:hover{
             color: #000;
+            text-decoration: underline;
         }
         .text-muted{
             font-size: 14px;
