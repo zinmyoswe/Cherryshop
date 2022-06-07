@@ -49,7 +49,7 @@ p, .gl-body, .gl-paragraph {
     max-width: 50%;
   }*/
 
-  .caro7_img{
+/*  .caro7_img{
   
   width: 100%;
   height: 100%;
@@ -76,7 +76,7 @@ p, .gl-body, .gl-paragraph {
     line-height: 16px;
     color: #fff;
     margin-bottom: 16px;
-}
+}*/
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
