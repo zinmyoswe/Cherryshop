@@ -102,7 +102,7 @@ li a {
 <!-- ============= COMPONENT ============== -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
 <div class="container-fluid">
-  <a class="navbar-brand" href="#"><img src="admin/image/cherry-logo-black2.jpg" style=" height: 28px;"><b>SHOP</b></a>
+  <a class="navbar-brand" href="index.php"><img src="admin/image/cherry-logo-black2.jpg" style=" height: 28px;"><b>SHOP</b></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
