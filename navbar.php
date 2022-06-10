@@ -472,11 +472,14 @@ li a {
 <!-- ------ ===========end WHAT'S NEW Megamenu ==================================----- -->
     </ul>
     <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link" href="#"> LOGIN </a></li>
-      <li class="nav-item"><a class="nav-link" href="#"> WHILIST </a></li>
+      <li class="nav-item active"><a class="nav-link" href="#"> 
+        <i class="fal fa-user-alt fa-lg"></i> </a></li>
+      <li class="nav-item active"><a class="nav-link" href="#"> 
+          <i class="far fa-heart fa-lg"></i>
+       </a></li>
       <li class="nav-item dropdown">
-        <a class="nav-link " href="#" data-bs-toggle="dropdown"> 
-        Cart </a>
+        <a class="nav-link active" href="#" data-bs-toggle="dropdown"> 
+        <i class="fal fa-shopping-bag fa-lg"></i> </a>
           <ul class="dropdown-menu dropdown-menu-end">
           <li><a class="dropdown-item" href="#"> <h6 style="font-weight: bold;">YOUR BAG IS EMPTY</h6></a></li>
          <!--  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li> -->
