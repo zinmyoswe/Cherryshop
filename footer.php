@@ -54,7 +54,7 @@
     <div class="container home_con3">
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
-      <div class="col-6 col-md">
+      <div class="col-2 col-md">
         <h5>PRODUCTS</h5>
         <ul class="list-unstyled text-small">
           <li><a  href="">Shoes</a></li>
@@ -67,7 +67,7 @@
           <li><a  href="#">Outlet</a></li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-2 col-md">
         <h5>SPORTS</h5>
         <ul class="list-unstyled text-small">
           <li><a  href="#">Running</a></li>
@@ -80,7 +80,7 @@
         </ul>
       </div>
       
-      <div class="col-6 col-md">
+      <div class="col-2 col-md">
         <h5>COLLECTIONS</h5>
         <ul class="list-unstyled text-small">
           <li><a href="#">IVY PARK</a></li>
@@ -98,7 +98,7 @@
           
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-2 col-md">
         <h5>COMPANY INFO</h5>
         <ul class="list-unstyled text-small">
           <li><a href="#">About Us</a></li>
@@ -107,7 +107,7 @@
         </ul>
       </div>
 
-      <div class="col-6 col-md">
+      <div class="col-2 col-md">
         <h5>SUPPORT</h5>
         <ul class="list-unstyled text-small">
           <li><a href="#">Help</a></li>
@@ -123,7 +123,7 @@
         </ul>
       </div>
 
-      <div class="col-6 col-md">
+      <div class="col-2 col-md">
         <h5>FOLLOW US</h5>
         <ul class="list-unstyled text-small">
           <li><a href="#"><span class="fab fa-twitter"></span></a></li>

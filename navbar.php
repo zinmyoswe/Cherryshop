@@ -59,6 +59,10 @@ li a {
   font-size: 13px;
 }
 
+.col-megamenu a:hover{
+  color: #000;
+  text-decoration: underline;
+}
 
 .abc{
   margin-left: 300px;
@@ -113,7 +117,7 @@ li a {
 
       <!-- ------ start 1st mega menu ----- -->
       <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link active abc a12" href="#" data-bs-toggle="dropdown"> MEN</a>
+        <a class="nav-link active abc a12" href="product.php" data-bs-toggle="dropdown"> MEN</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-2 col-6" style="border-right: 1px solid lightgrey">
@@ -143,7 +147,7 @@ li a {
 
             <div class="col-lg-2 col-6">
               <div class="col-megamenu">
-                <h6 class="title">SHOES</h6>
+                <h6 class="title"><a href="product.php" title="">SHOES</a></h6>
                 <ul class="list-unstyled">
                   <li><a href="/en/men-shoes-new_arrivals" manual_cm_sp="header-_-men-_-shoes-_-new arrivals"><span class="">New Arrivals</span></a></li><li><a href="/en/men-running-shoes" manual_cm_sp="header-_-men-_-shoes-_-running shoes"><span class="">Running Shoes</span></a></li><li><a href="/en/men-sandals%7Cslides" manual_cm_sp="header-_-men-_-shoes-_-slides &amp; sandals"><span class="">Slides &amp; Sandals</span></a></li><li><a href="/en/men-originals-shoes" manual_cm_sp="header-_-men-_-shoes-_-originals"><span class="">Originals</span></a></li><li><a href="/en/men-soccer-shoes" manual_cm_sp="header-_-men-_-shoes-_-soccer cleats &amp; shoes"><span class="">Soccer Cleats &amp; Shoes</span></a></li><li><a href="/en/men-basketball-shoes" manual_cm_sp="header-_-men-_-shoes-_-basketball shoes"><span class="">Basketball Shoes</span></a></li><li><a href="/en/men-training-shoes" manual_cm_sp="header-_-men-_-shoes-_-workout shoes"><span class="">Workout Shoes</span></a></li><li><a href="/en/men-golf-shoes" manual_cm_sp="header-_-men-_-shoes-_-golf shoes"><span class="">Golf Shoes</span></a></li><li><a href="/en/outdoor-men-shoes" manual_cm_sp="header-_-men-_-shoes-_-hiking &amp; outdoor shoes"><span class="">Hiking &amp; Outdoor Shoes</span></a></li><li><a href="/en/men-tennis-shoes" manual_cm_sp="header-_-men-_-shoes-_-tennis shoes"><span class="">Tennis Shoes</span></a></li><li><a href="/en/men-skateboarding-shoes" manual_cm_sp="header-_-men-_-shoes-_-skateboarding shoes"><span class="">Skateboarding Shoes</span></a></li></ul>
                 
