@@ -233,7 +233,8 @@ a .gl-cta--tertiary:hover{
    	</div>
 
    	<!--  ----------------- Category nav Image end --------------------- -->
-
+   	<p class="text-end">
+   	<button type="button" class="btn btn-outline-dark text-end" style="border-radius: 0px;">Filter & Sort <i class="fal fa-sort-alt"></i> </button> </p>
    	<hr>
 
 	<div class="row">
@@ -417,7 +418,231 @@ a .gl-cta--tertiary:hover{
 	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
 </div>
 		</div><!-- col-sm-3 end -->
-	</div>
-</div>
 
+		<div class="col-6 col-sm-3 col-xs-4">
+
+			<figure class="imghvr-fade">
+  <img src="admin/product/c2ef6f275dc640c5aa59ade50105463c_9366.jpg" style=" background-color: yellow" class="product__image_cherry">
+  <div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="   color: #fff;">$180 </span></p>
+          </div>
+        </div>
+
+  <figcaption>
+    <a href="product_detail.php" title=""><img src="admin/product_sub_image/404c74c6cb864b10b8c1ade501055862_9366.jpg" class="product__image_cherry">
+    	<div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="    color: #fff;">$180 </span></p>
+          </div>
+        </div>
+    </a>
+  </figcaption>
+</figure>
+
+<div class="glass-product-card__details">
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__title" data-auto-id="product-card-title"><a href="product_detail.php" title="">Ultraboost 22 Shoes </a></p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__category" data-auto-id="product-card-category" style="color: #767677;">Running</p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
+</div>
+		</div><!-- col-sm-3 end -->
+
+		<div class="col-6 col-sm-3 col-xs-4">
+
+			<figure class="imghvr-fade">
+  <img src="admin/product/e455dff588be4164a40dad7900d3b244_9366.jpg" style=" background-color: yellow" class="product__image_cherry">
+  <div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="   color: #fff;">$180 </span></p>
+          </div>
+        </div>
+
+  <figcaption>
+    <a href="product_detail.php" title=""><img src="admin/product_sub_image/ea19c904109540debd24ad7900d3c11b_9366.jpg" class="product__image_cherry">
+    	<div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="    color: #fff;">$180 </span></p>
+          </div>
+        </div>
+    </a>
+  </figcaption>
+</figure>
+
+<div class="glass-product-card__details">
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__title" data-auto-id="product-card-title"><a href="product_detail.php" title="">Ultraboost 22 Shoes </a></p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__category" data-auto-id="product-card-category" style="color: #767677;">Running</p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
+</div>
+		</div><!-- col-sm-3 end -->
+
+		<div class="col-6 col-sm-3 col-xs-4">
+
+			<figure class="imghvr-fade">
+  <img src="admin/product/d96de4432d7a4b29be12ae0b00dba127_9366.jpg" style=" background-color: yellow" class="product__image_cherry">
+  <div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="   color: #fff;">$180 </span></p>
+          </div>
+        </div>
+
+  <figcaption>
+    <a href="product_detail.php" title=""><img src="admin/product_sub_image/fcb9e8bc25d249579d2dae0b00dbb039_9366.jpg" class="product__image_cherry">
+    	<div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="    color: #fff;">$180 </span></p>
+          </div>
+        </div>
+    </a>
+  </figcaption>
+</figure>
+
+<div class="glass-product-card__details">
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__title" data-auto-id="product-card-title"><a href="product_detail.php" title="">Ultraboost 22 Shoes </a></p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__category" data-auto-id="product-card-category" style="color: #767677;">Running</p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
+</div>
+		</div><!-- col-sm-3 end -->
+
+		<div class="col-6 col-sm-3 col-xs-4">
+
+			<figure class="imghvr-fade">
+  <img src="admin/product/c79a34cb2e4a4bbe81c8ac1e011ac76c_9366.jpg" style=" background-color: yellow" class="product__image_cherry">
+  <div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="   color: #fff;">$180 </span></p>
+          </div>
+        </div>
+
+  <figcaption>
+    <a href="product_detail.php" title=""><img src="admin/product_sub_image/e7751e74dcbd49a48d17ad2e01640f98_9366.jpg" class="product__image_cherry">
+    	<div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="    color: #fff;">$180 </span></p>
+          </div>
+        </div>
+    </a>
+  </figcaption>
+</figure>
+
+<div class="glass-product-card__details">
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__title" data-auto-id="product-card-title"><a href="product_detail.php" title="">Ultraboost 22 Shoes </a></p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__category" data-auto-id="product-card-category" style="color: #767677;">Running</p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
+</div>
+		</div><!-- col-sm-3 end -->
+
+		<div class="col-6 col-sm-3 col-xs-4">
+
+			<figure class="imghvr-fade">
+  <img src="admin/product/49e5514bb83e4c5d8bf5ad9100ef2815_9366.jpg" style=" background-color: yellow" class="product__image_cherry">
+  <div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="   color: #fff;">$180 </span></p>
+          </div>
+        </div>
+
+  <figcaption>
+    <a href="product_detail.php" title=""><img src="admin/product_sub_image/4a2400ea8be34b889c93ad9100ef383e_9366.jpg" class="product__image_cherry">
+    	<div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="    color: #fff;">$180 </span></p>
+          </div>
+        </div>
+    </a>
+  </figcaption>
+</figure>
+
+<div class="glass-product-card__details">
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__title" data-auto-id="product-card-title"><a href="product_detail.php" title="">Ultraboost 22 Shoes </a></p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__category" data-auto-id="product-card-category" style="color: #767677;">Running</p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
+</div>
+		</div><!-- col-sm-3 end -->
+
+		<div class="col-6 col-sm-3 col-xs-4">
+
+			<figure class="imghvr-fade">
+  <img src="admin/product/4b593057a18c47d2844dad9000ecd808_9366.jpg" style=" background-color: yellow" class="product__image_cherry">
+  <div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="   color: #fff;">$180 </span></p>
+          </div>
+        </div>
+
+  <figcaption>
+    <a href="product_detail.php" title=""><img src="admin/product_sub_image/cd86484cf623492aba03ad9000ece97f_9366.jpg" class="product__image_cherry">
+    	<div class="container">
+          <div class="carousel-caption">
+
+            <p class="text-start" style=" margin-bottom: -40px;"><span class="badge bg-light text-dark"  style="    color: #fff;">$180 </span></p>
+          </div>
+        </div>
+    </a>
+  </figcaption>
+</figure>
+
+<div class="glass-product-card__details">
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__title" data-auto-id="product-card-title"><a href="product_detail.php" title="">Ultraboost 22 Shoes </a></p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__category" data-auto-id="product-card-category" style="color: #767677;">Running</p>
+	<p class="gl-paragraph gl-paragraph--s glass-product-card__label"><span class="dark-grey___2ufTt" data-auto-id="product-card-colvar-count">13 colours</span></p>
+</div>
+		</div><!-- col-sm-3 end -->
+
+	<!---------- ----------------- Product Menu End -------------------- -->
+	</div><!--  row end -->
+
+<style type="text/css" media="screen">
+.pagination__indicator___2o8CO {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}	
+</style>
+	<div class="row">
+		<div class="col order-start">
+			<p class="text-start">
+				<a href="" title="" ><span class="gl-cta gl-cta--tertiary">PREVIOUS</span></a>
+			</p>
+		</div>
+
+		<div class="col">
+			<span class="pagination__indicator___2o8CO">
+				Page: 
+				<select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: 60px; height: 60px; border-radius: 0px; font-weight: bold;">
+				  <option selected value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				</select>
+				 of 14
+			</span>
+		</div>
+		
+		<div class="col order-end">
+			<p class="text-end">
+				<a href="" title=""><span class="gl-cta gl-cta--tertiary">NEXT</span></a>
+			</p>
+		</div>
+
+		
+	</div><!--  row end -->
+</div><!--  container end -->
+<br>
+
+<?php include('footer.php'); ?>
+
+</body>
+</html>
 
