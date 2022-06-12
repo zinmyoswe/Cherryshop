@@ -478,7 +478,7 @@ li a {
     <ul class="navbar-nav ms-auto">
       <li class="nav-item active"><a class="nav-link" href="#"> 
         <i class="fal fa-user-alt fa-lg"></i> </a></li>
-      <li class="nav-item active"><a class="nav-link" href="#"> 
+      <li class="nav-item active"><a class="nav-link" href="wishlist.php"> 
           <i class="far fa-heart fa-lg"></i>
        </a></li>
       <li class="nav-item dropdown">
@@ -492,5 +492,6 @@ li a {
     </ul>
   </div> <!-- navbar-collapse.// -->
 </div> <!-- container-fluid.// -->
+
 </nav>
 <!-- ============= COMPONENT END// ============== -->
