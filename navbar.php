@@ -117,7 +117,7 @@ li a {
 
       <!-- ------ start 1st mega menu ----- -->
       <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link active abc a12" href="product.php" data-bs-toggle="dropdown"> MEN</a>
+        <a class="nav-link active abc a12" href="product.php" data-bs-toggle=""> MEN</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-2 col-6" style="border-right: 1px solid lightgrey">
@@ -194,7 +194,7 @@ li a {
       <!-- ------ end 1st mega menu ----- -->
       <!-- ------ start 2nd mega menu ----- -->
 <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link active a12" href="#" data-bs-toggle="dropdown"> WOMEN</a>
+        <a class="nav-link active a12" href="product.php" data-bs-toggle=""> WOMEN</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-2 col-6"  style="border-right: 1px solid lightgrey">
@@ -265,7 +265,7 @@ li a {
       <!-- ------ start 3rd mega menu ----- -->
 
       <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link active a12" href="#" data-bs-toggle="dropdown"> KIDS</a>
+        <a class="nav-link active a12" href="product.php" data-bs-toggle=""> KIDS</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-3 col-6" style="border-right: 1px solid lightgrey">
@@ -333,7 +333,7 @@ li a {
        <!-- ------ ===========start SPORT Megamenu ==================================----- -->
 
       <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link" href="#" data-bs-toggle="dropdown"> SPORTS</a>
+        <a class="nav-link" href="sports.php" data-bs-toggle=""> SPORTS</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-2 col-6">
