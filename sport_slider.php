@@ -190,7 +190,7 @@ p, .gl-body, .gl-paragraph {
 @media (min-width: 960px){
 .img-fluid {
     max-width: 100%;
-    height: 300px !important;
+    height: auto !important;
 }
 
 }

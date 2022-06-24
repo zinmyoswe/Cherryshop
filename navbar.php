@@ -476,11 +476,195 @@ li a {
 <!-- ------ ===========end WHAT'S NEW Megamenu ==================================----- -->
     </ul>
     <ul class="navbar-nav ms-auto">
-      <li class="nav-item active"><a class="nav-link" href="#"> 
-        <i class="fal fa-user-alt fa-lg"></i> </a></li>
-      <li class="nav-item active"><a class="nav-link" href="wishlist.php"> 
+      <li class="nav-item active">
+        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+        <i class="fal fa-user-alt fa-lg"></i> 
+      </a></li>
+
+
+<link rel="stylesheet" type="text/css" href="https://www.adidas.co.uk/glass/react/d0ca98f/adidas/modern/glass-vendor-adidas.css">
+      <style type="text/css" media="screen">
+        .modal-body h4,h5,p,a,label{
+          font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+        }
+       
+      </style>
+
+
+
+<!--------------- Modal start --------------------------->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+
+      <!-- -------------------modal-body start ------------------------ -->
+      <div class="modal-body">
+        
+        
+        
+
+        <div class="modal-header">
+        <h4 class="modal-title">LOG IN</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <br>
+
+        <p>Get free shipping, discount vouchers and members only products when you’re in CherryClub</p>
+
+        <h5>LOG IN (IT'S FREE)</h5>
+        <div class="mb-3">
+  <label for="email" class="form-label">Enter your email</label>
+  <input type="email" class="form-control" id="email" placeholder="Email *">
+</div>
+
+<div class="mb-3">
+  <label for="password" class="form-label">Password
+  <!--  <i class="fal fa-eye-slash" id="togglePassword" style="margin-left: 300px;">SHOW</i>  -->
+   <a href="#" class="text-dark" id="icon-click" style="margin-left: 300px;">
+    <i class="far fa-eye-slash" id="icon"></i>
+    SHOW
+  </a>
+  </label>
+  <input type="password" class="form-control" id="password" placeholder="Password *">
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    Keep me logged in. Applies to each option below. 
+    <a href="" title="">More info</a>
+  </label>
+</div>
+<br>
+<a href="#" title="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">SIGN UP Here</a> to create your account<br><br>
+<a href="" title="">Forgotten Your Password?</a><br><br>
+
+
+<div class="d-grid gap-2">
+  <button class="btn btn-dark" type="button">LOG IN</button>
+</div>
+
+<br>
+
+      </div> 
+      <!-- -------------------modal-body end ------------------------ -->
+      
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/script_eyetoggle.js?v=<?php echo time(); ?>"></script>
+
+<script>
+        // const togglePassword = document.querySelector("#togglePassword");
+        // const password = document.querySelector("#password");
+
+        // togglePassword.addEventListener("click", function () {
+        //     // toggle the type attribute
+        //     const type = password.getAttribute("type") === "password" ? "text" : "password";
+        //     password.setAttribute("type", type);
+            
+        //     // toggle the icon
+        //     this.classList.toggle("fa-eye");
+        // });
+
+        // // prevent form submit
+        // const form = document.querySelector("form");
+        // form.addEventListener('submit', function (e) {
+        //     e.preventDefault();
+        // });
+    </script>
+<!--------------- Modal end --------------------------->
+
+
+<!--------------- Modal2 start --------------------------->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+
+      <!-- -------------------modal-body start ------------------------ -->
+      <div class="modal-body">
+        
+        
+        
+
+        <div class="modal-header">
+        <h4 class="modal-title">SIGN UP</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <br>
+
+        <h5>SIGN UP (IT'S FREE)</h5>
+
+
+          <div class="row">
+            <div class="col-6 mb-3">
+              <label for="zip" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="zip" placeholder="First Name *" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+
+            <div class="col-6 mb-3">
+              <label for="zip" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="zip" placeholder="Last Name *" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+            </div>
+         
+
+        <div class="mb-3">
+  <label for="email" class="form-label">Enter your email</label>
+  <input type="email" class="form-control" id="email" placeholder="Email *">
+</div>
+
+<div class="mb-3">
+  <label for="password" class="form-label">Password
+   
+  </label>
+  <input type="password" class="form-control" id="password" placeholder="Password *">
+</div>
+
+<div class="mb-3">
+  <label for="password" class="form-label">Confirm Password
+   
+  </label>
+  <input type="password" class="form-control" id="password" placeholder="Confirm Password *">
+</div>
+
+
+<br>
+
+
+
+<div class="d-grid gap-2">
+  <button class="btn btn-dark" type="button">SIGN UP</button>
+</div>
+
+<br>
+
+      </div> 
+      <!-- -------------------modal-body end ------------------------ -->
+      
+    </div>
+  </div>
+</div>
+
+
+<!--------------- Modal2 end --------------------------->
+
+
+      <li class="nav-item active">
+        <a class="nav-link" href="wishlist.php"> 
           <i class="far fa-heart fa-lg"></i>
        </a></li>
+     
+
       <li class="nav-item dropdown">
         <a class="nav-link active" href="#" data-bs-toggle="dropdown"> 
         <i class="fal fa-shopping-bag fa-lg"></i> </a>
