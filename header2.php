@@ -28,7 +28,7 @@
     
 
 
-        <!-- <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>  -->
+        <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script> 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      
@@ -163,12 +163,23 @@
     border-color: #000;
 }
 
-html,body{
+/*html,body{
   font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Abel', sans-serif;
 }
-
+*/
 
 
   </style>
+
+    <!-- ----- For Addias Font ----  -->
+  <link rel="stylesheet" type="text/css" href="https://www.adidas.co.uk/glass/react/d0ca98f/adidas/modern/glass-vendor-adidas.css">
+      <style type="text/css" media="screen">
+        html,body{
+          font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+        }
+       
+      </style>
+
+      <!-- ----- For Addias Font  end----  -->

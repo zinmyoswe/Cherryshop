@@ -556,25 +556,6 @@ li a {
 
 <script type="text/javascript" src="js/script_eyetoggle.js?v=<?php echo time(); ?>"></script>
 
-<script>
-        // const togglePassword = document.querySelector("#togglePassword");
-        // const password = document.querySelector("#password");
-
-        // togglePassword.addEventListener("click", function () {
-        //     // toggle the type attribute
-        //     const type = password.getAttribute("type") === "password" ? "text" : "password";
-        //     password.setAttribute("type", type);
-            
-        //     // toggle the icon
-        //     this.classList.toggle("fa-eye");
-        // });
-
-        // // prevent form submit
-        // const form = document.querySelector("form");
-        // form.addEventListener('submit', function (e) {
-        //     e.preventDefault();
-        // });
-    </script>
 <!--------------- Modal end --------------------------->
 
 
@@ -664,15 +645,24 @@ li a {
           <i class="far fa-heart fa-lg"></i>
        </a></li>
      
-
-      <li class="nav-item dropdown">
+       <!-- ----- For No Item in Bag ---- -->
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link active" href="#" data-bs-toggle="dropdown"> 
         <i class="fal fa-shopping-bag fa-lg"></i> </a>
           <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item" href="#"> <h6 style="font-weight: bold;">YOUR BAG IS EMPTY</h6></a></li>
-         <!--  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li> -->
+          <li><a class="dropdown-item" href="#"> 
+            <h6 style="font-weight: bold;">YOUR BAG IS EMPTY</h6></a></li>
+         
           </ul>
-      </li>
+      </li> -->
+
+      <!-- ----- For having Item in Bag ---- -->
+
+      <li class="nav-item active">
+        <a class="nav-link" href="cart.php"> 
+          <i class="fal fa-shopping-bag fa-lg"></i>
+       </a></li>
+
     </ul>
   </div> <!-- navbar-collapse.// -->
 </div> <!-- container-fluid.// -->
