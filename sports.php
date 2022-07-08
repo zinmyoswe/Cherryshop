@@ -188,72 +188,7 @@ a .gl-cta--tertiary:hover{
 
 <main role="main">
 
-<!-- {{-- ======================= start of caro2 ==================== --}} -->
-  <style type="text/css" media="screen">
-      .controls___26zJz {
-    display: flex;
-    gap: var(--gl-spacing-0100);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: var(--gl-spacing-0200);
-}
-.icon___2GMo7 {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.25);
-    z-index: 1;
-}
-    </style>  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    function playPause(btn,vid){
-  var vid = document.getElementById(vid);
-  if(vid.paused){
-    vid.play();
-    playbtn.style.className = "url(pause.png)";
-  } else {
-    vid.pause();
-    playbtn.style.background = "url(play.png)";
-  }
-}
-  </script>
-    <div class="carousel-inner">
-      <div class="carousel-item active" 
-      style="width: 100%; height: 42.5rem;
-             @media(min-width: 576px) {width: 100%; height: 22rem !important;} ">
-     
-     <div style="width: 100%; height: 100%; display: flex;" >
-        <video id="myvideo1" loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="">
-<source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-fw22-supernova-launch-hp-masthead-large-3d-d_u6rjfy.mp4" type="video/mp4"  style="width: 100%; height: 100%;  " />
 
-</video> 
-<!-- video button end -->
-<div class="controls___26zJz">
-
-  <svg onclick="playPause(this,'myvideo1')" class="icon___2GMo7" width="44" height="44" style="margin : 1.5rem;" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" data-testid="pause-icon"><path d="M19 14H17V30H19V14ZM27 14H25V30H27V14Z" fill="white"></path></svg>
-
-</div> <!-- video button end -->
-</div>
-
-
-
-        <div class="container">
-          <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #fff;">
-            <h1 style="font-weight: bold;">TOGETHER, WE RAN
- </h1>
-            <p>Thank you for running for the oceans and helping to<br> end plastic waste.</p>
-            <p><a class="btn btn-lg btn-light" href="product.php" role="button" >LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
-
-          </div>
-
-        </div>
-        
-      </div>
-
-    </div> <!-- carousel-inner end -->
-
- 
- <!--  {{-- ======================= end of caro2 ==================== --}} -->
 
  <!-- {{-- ======================= start of caro2 ==================== --}} -->
   <style type="text/css" media="screen">
@@ -377,6 +312,8 @@ a .gl-cta--tertiary:hover{
 
 
   <?php include('sport_slider3.php'); ?>
+
+  <?php include('sport_slider4.php'); ?>
 
 
 </main> 

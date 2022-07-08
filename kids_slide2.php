@@ -1,9 +1,11 @@
 <style type="text/css" media="screen">
-
+.kid_title{
+	margin-top: 10px;
+}
 /*FOR Mobile VERs*/
 @media (min-width: 360px){
 .kid_img{
-	height: 254px;
+	/*height: 254px;*/
 	width: 100%;
 /*	display: block;
 	object-fit: cover;*/

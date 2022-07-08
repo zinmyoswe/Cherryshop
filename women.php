@@ -322,6 +322,34 @@ a .gl-cta--tertiary:hover{
  
  <!--  {{-- ======================= end of caro2 ==================== --}} -->
 
+
+ <!-- {{-- ======================= start of caro ==================== --}} -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enGB/Images/2390108_CAM_Onsite_EU_Marimkekko_DAT_Brand_SS22_MASTHEAD_desktop_2880x1280px_tcm143-904970.jpg" alt="" width="100%" height="100%" fill="#777">
+        <div class="container">
+
+          <div class="carousel-caption text-start " style="margin-bottom: 120px; color: #fff;
+          
+          
+            @media (max-width: 768px) {margin-bottom: 20px !important}
+            
+          " >
+            <h1 style="font-weight: bold;">CHERRYP X MARIMEKKO</h1>
+            <p>adidas and Marimekko reunite to celebrate the <br>female form through iconic print.</p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+             <!-- <p><a class="btn btn-lg btn-dark" href="product.php" role="button">EXPLORE <i class="fa fa-arrow-right"></i></a></p> -->
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+    
+  <!-- {{-- ======================= end of caro ==================== --}} -->
+
   <!--  {{-- ======================= start sports_multiple_bg ==================== --}} -->
  
 
