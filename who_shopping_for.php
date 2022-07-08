@@ -1,6 +1,6 @@
 <br>
    <div class="container " style="max-width: 1280px;">
-    <h1 style="font-weight: bold; font-style: italic;">WHO ARE YOU SHOPPING FOR?</h1>
+    <h3 style="font-weight: bold; font-style: italic;">WHO ARE YOU SHOPPING FOR?</h3>
     <div class="row">
 
       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">

@@ -141,7 +141,7 @@
 
 .btn-dark {
     color: #fff;
-    background-color: #000;
+    background-color: #000 !important;
     border-color: #000;
 }
 .btn-dark:hover{
@@ -163,22 +163,28 @@
     border-color: #000;
 }
 
-/*html,body{
+a .gl-cta--tertiary:hover{
+  background-color: black;
+  color: white;
+
+}
+
+html,body{
   font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Abel', sans-serif;
 }
-*/
+
 
 
   </style>
 
     <!-- ----- For Addias Font ----  -->
-  <link rel="stylesheet" type="text/css" href="https://www.adidas.co.uk/glass/react/d0ca98f/adidas/modern/glass-vendor-adidas.css">
+ <!--  <link rel="stylesheet" type="text/css" href="https://www.adidas.co.uk/glass/react/d0ca98f/adidas/modern/glass-vendor-adidas.css"> -->
       <style type="text/css" media="screen">
-        html,body{
+        /*html,body{
           font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
-        }
+        }*/
        
       </style>
 

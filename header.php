@@ -195,12 +195,12 @@
     border-color: #000;
 }
 
-/*html,body{
+html,body{
   font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Abel', sans-serif;
 }
-*/
+
 
 
   </style>

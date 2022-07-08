@@ -224,7 +224,7 @@ a .gl-cta--tertiary:hover{
      
      <div style="width: 100%; height: 100%; display: flex;" >
         <video id="myvideo1" loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="">
-<source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-fw22-supernova-launch-hp-masthead-large-3d-d_u6rjfy.mp4" type="video/mp4"  style="width: 100%; height: 100%;  " />
+<source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-fw22-supernova-launch-glp-w-masthead-large-3d-d_tbfksz.mp4" type="video/mp4"  style="width: 100%; height: 100%;  " />
 
 </video> 
 <!-- video button end -->
@@ -238,11 +238,11 @@ a .gl-cta--tertiary:hover{
 
 
         <div class="container">
-          <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #fff;">
-            <h1 style="font-weight: bold;">TOGETHER, WE RAN
+          <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #000;">
+            <h1 style="font-weight: bold;">COMFORT MEETS ENERGY
  </h1>
-            <p>Thank you for running for the oceans and helping to<br> end plastic waste.</p>
-            <p><a class="btn btn-lg btn-light" href="product.php" role="button" >LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
+            <p>Run comfortable no matter the terrain. Supernova <br> e2.</p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" >SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
 
           </div>
 
@@ -291,7 +291,7 @@ a .gl-cta--tertiary:hover{
      
      <div style="width: 100%; height: 100%; display: flex;" >
         <video id="myvideo3" loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="">
-<source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/training-fw21-KarlieKloss-adidas-launch-hp-mh-large-d_pxjkq3.mp4" type="video/mp4"  style="width: 100%; height: 100%;  " />
+<source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/global%20brand%20publishing/Training/FW22-MARIMEKKO/fw22-marimekko-launch-collection-female-glp-mh-large-animated-d.mp4" type="video/mp4"  style="width: 100%; height: 100%;  " />
 
 </video> 
 <!-- video button end -->
@@ -306,9 +306,9 @@ a .gl-cta--tertiary:hover{
 
         <div class="container">
           <div class="carousel-caption text-start cc3" style="margin-bottom: 140px; color: #fff;">
-            <h1 style="font-weight: bold;">CREATED WITH KARLIE KLOSS
+            <h1 style="font-weight: bold;">CHERRYP X MARIMEKKO
  </h1>
-            <p>Be inspired by nature, in the new made-for-the-<br> outdoors collection in collaboration with Karlie<br> Kloss.</p>
+            <p>cherryp and Marimekko reunite to celebrate the <br> outdoors collection in collaboration with Karlie<br> female form through iconic print.</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button" >SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
 
           </div>
@@ -323,60 +323,13 @@ a .gl-cta--tertiary:hover{
  <!--  {{-- ======================= end of caro2 ==================== --}} -->
 
   <!--  {{-- ======================= start sports_multiple_bg ==================== --}} -->
-  <style type="text/css" media="screen">
-      .sports_multiple_bg{
-        /*position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 50%;*/
-        height: 280px;
-
-      }
-      .withBackgroundImage___1PZF4 {
-    background-size: cover;
-}
-
-
-
-/*FOR Mobile VERs*/
-@media (min-width: 360px){
-.wrap_sport{
-    height: 350px;
-
-}
-}
-
-/*FOR DESKTOP VERs*/
-@media (min-width: 960px){
-.wrap_sport{
-    height: 500px;
-
-}
-
-}
-
-/*FOR Tablet VERs*/
-@media (min-width: 760px) and (max-width: 900px){
-.wrap_sport{
-    height: 450px;
-
-}
-
-}
-  </style>
-  <div class="wrap_sport">
- <div class="col-s-12 col-l-24 sports_multiple_bg carouselBackground withBackgroundImage___1PZF4" style="background-image: url('admin/sports_image/sustainability-ss22-rfto-sustain-catlp-mhm-psc-d_tcm143-882657.jpg') ;">
-     <?php include('sport_slider.php'); ?>
-
- </div> <!-- sports_multiple_bg end -->
- </div>
+ 
 
  <br><br>
 
 
 
-  <?php include('sport_slider3.php'); ?>
+  <?php include('women_slide.php'); ?>
 
 
 </main> 

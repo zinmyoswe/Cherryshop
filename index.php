@@ -313,7 +313,7 @@ h4{
         <img src="admin/image/sustainability-ss22-rfto-sustain-hp-mh-02-d_tcm143-885345.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1 style="color: #000; font-weight: bold;">RUN FOR THE OCEANS</h1>
+            <h3 style="color: #000; font-weight: bold;">RUN FOR THE OCEANS</h3>
             <p style="color: #000;">Every action counts. Discover our Run For The <br>Oceans collection, made to help end plastic waste.</p>
 
             <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
@@ -374,7 +374,7 @@ h4{
 
         <div class="container">
           <div class="carousel-caption text-left cc3" style="margin-bottom: 140px; color: #fff;">
-            <h1 style="font-weight: bold;">ROZWEEGO. BE THE REAL YOU.</h1>
+            <h3 style="font-weight: bold;">ROZWEEGO. BE THE REAL YOU.</h3>
             <p>Bold, chunky style bridging the gap between past <br>and future.</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button" >SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
 
@@ -395,7 +395,7 @@ h4{
         <img src="admin/image/ss22-main-retropy-mh-d_tcm215-890379.jpg" alt="" width="100%" height="100%" fill="#777">
 
       <div class="carousel-caption text-left">
-            <h1>MY RETROPY</h1>
+            <h3>MY RETROPY</h3>
             <p>
 How I feel today is what I decide</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
@@ -483,8 +483,8 @@ How I feel today is what I decide</p>
 
         <div class="container">
           <div class="carousel-caption text-left cc3" style="margin-bottom: 140px; color: #fff;">
-            <h1 style="font-weight: bold;">
-A NEW TAKE ON NMD</h1>
+            <h3 style="font-weight: bold;">
+A NEW TAKE ON NMD</h3>
             <p>There's no limit to your style expansion. Explore the <br>new NMD_V3.</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button" >SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
 
@@ -508,7 +508,7 @@ A NEW TAKE ON NMD</h1>
         <img src="admin/image/YZY_FOAM_RNR_ONYX_FAM-D_tcm207-893481.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
           <div class="carousel-caption text-left cc2" style="margin-bottom: 140px; color: #000;" >
-            <h1 style="font-weight: bold;">YZY FOAM RNR ONYX</h1>
+            <h3 style="font-weight: bold;">YZY FOAM RNR ONYX</h3>
             <p>AVAILABLE THROUGH THE ADIDAS APP. DOWNLOAD,<br> REGISTER, PARTICIPATE</p>
             <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SIGN UP NOW <i class="fa fa-arrow-right"></i></a></p>
              <!-- <p><a class="btn btn-lg btn-dark" href="product.php" role="button">EXPLORE <i class="fa fa-arrow-right"></i></a></p> -->
@@ -573,7 +573,7 @@ A NEW TAKE ON NMD</h1>
 
         <div class="container">
           <div class="carousel-caption text-left cc3" style="margin-bottom: 140px; color: #fff;">
-            <h1 style="font-weight: bold;">RUN FOR THE OCEANS</h1>
+            <h3 style="font-weight: bold;">RUN FOR THE OCEANS</h3>
             <p>t's time to put on your running shoes and Run For<br> The Oceans. Every minute counts.</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button" >LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
 
@@ -595,7 +595,7 @@ A NEW TAKE ON NMD</h1>
         <img src="admin/image/real-madrid-hp-mh-d_tcm207-894592.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
           <div class="carousel-caption text-left cc2" style="margin-bottom: 140px; color: #fff;" >
-            <h1 style="font-weight: bold;">REAL MADRID</h1>
+            <h3 style="font-weight: bold;">REAL MADRID</h3>
             <br><br>
             <p>CHAMPIONS OF EUROPE</p>
             <p><a class="btn btn-lg btn-light" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>

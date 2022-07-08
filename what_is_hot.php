@@ -100,7 +100,7 @@ p, .gl-body, .gl-paragraph {
 
 <br>
 <div class="container" style="max-width: 1280px;">
-  <h1 style="font-weight: bold; font-style: italic;">WHAT'S HOT</h1>
+  <h3 style="font-weight: bold; font-style: italic;">WHAT'S HOT</h3>
   <div class="row">
     <div id="carousel2" class="carousel slide" data-ride="carousel2" >
       <ol class="carousel-indicators">

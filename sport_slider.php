@@ -6,13 +6,27 @@
     <link rel="stylesheet" type="text/css" href="https://www.adidas.com.sg/glass/react/d62275f/assets/fonts/AdihausDIN-CnBoldItalic.woff2">
     <link rel="stylesheet" type="text/css" href="https://www.adidas.com.sg/glass/react/d62275f/assets/fonts/yeezy_tstar-regular-webfont.woff2">
   <style type="text/css" media="screen">
+
+    /* --------------Product Carousel start -----------*/
+
+    /*For Editing one pic for mobile VER*/
     @media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
+    /*.carousel-inner .carousel-item > div {
         display: none;
-    }
+    }*/
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
+}
+
+/*FOR Mobile VERs*/
+@media (min-width: 360px){
+ /*.carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: none;
+    }*/
 }
 
 .carousel-inner .carousel-item.active,
@@ -49,6 +63,8 @@
 .carousel {
   width: 100%;
 }
+
+/* --------------Product Carousel end -----------*/
 
 .caro7_img{
   
@@ -89,60 +105,6 @@ p, .gl-body, .gl-paragraph {
     margin-bottom: 0;
 }
 
-@media (min-width: 376px) and (max-width: 576px) {
-  /*.slide-box img {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }*/
-
-/*  .caro7_img{
-  
-  width: 100%;
-  height: 100%;
-  
-}
-
-.caro7_video{
-  margin-top: 0px !important;
-  width: 100%;
-  height: 100%;
-}
-
-  .caro7_title{
-  margin-top: 10px;
-  height: 90px;
-}
-
-  .caro7_button{
-      margin-top: 10px;
-  }
-
-  p, .gl-body, .gl-paragraph {
-    font-size: 10px;
-    line-height: 16px;
-    color: #fff;
-    margin-bottom: 16px;
-}*/
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  /*.slide-box img {
-    -ms-flex: 0 0 33.3333%;
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }*/
-}
-
-@media (min-width: 992px)
-{
-  /*.slide-box img {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }*/
-}
-
 .caro7 .badge{
   font-weight: 300 !important;
   font-size: 15px;
@@ -180,15 +142,16 @@ p, .gl-body, .gl-paragraph {
 
 /*FOR Mobile VERs*/
 @media (min-width: 360px){
-.img-fluid {
+.img-fluid2 {
     max-width: 100%;
-    height: auto !important;
+    height: 100px;
 }
+
 }
 
 /*FOR DESKTOP VERs*/
 @media (min-width: 960px){
-.img-fluid {
+.img-fluid2 {
     max-width: 100%;
     height: auto !important;
 }
@@ -197,9 +160,9 @@ p, .gl-body, .gl-paragraph {
 
 /*FOR Tablet VERs*/
 @media (min-width: 760px) and (max-width: 900px){
-.img-fluid {
+.img-fluid2 {
     max-width: 100%;
-    height: 170px !important;
+    height: auto !important;
 }
 
 }
@@ -217,7 +180,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-72c165529b.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-72c165529b.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -243,7 +206,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-49dacf8ee8.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-49dacf8ee8.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -269,7 +232,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-192caf6fdb.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-192caf6fdb.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -295,7 +258,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-5023f1c788.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-5023f1c788.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -321,7 +284,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/c79a34cb2e4a4bbe81c8ac1e011ac76c_9366.jpg" class="img-fluid" >
+                                <img src="admin/product/c79a34cb2e4a4bbe81c8ac1e011ac76c_9366.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -347,7 +310,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-07816c76ae.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-07816c76ae.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -373,7 +336,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-8f1830fafd.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-8f1830fafd.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">
@@ -399,7 +362,7 @@ p, .gl-body, .gl-paragraph {
                         <div class="card">
                             <div class="card-img" >
                                 <div class="caro7">
-                                <img src="admin/product/ezgif-2-0b4c5fed11.jpg" class="img-fluid" >
+                                <img src="admin/product/ezgif-2-0b4c5fed11.jpg" class="img-fluid2" >
                             </div>
                             </div>
                             <div class="container">

@@ -8,9 +8,7 @@
   justify-content: space-between;
 }
 
-.spcaro6 img{
-  /*height: 370px;*/
-}
+
 
 .spcaro6_img{
   
@@ -23,11 +21,7 @@
   margin-right: 3px;
 }
 
-.spcaro6_video{
-  margin-top: 0px !important;
-  width: 100%;
-  height: 100%;
-}
+
 
 .spcaro6_title{
   margin-top: 10px;
@@ -56,6 +50,14 @@ p, .gl-body, .gl-paragraph {
 .img-fluid {
     max-width: 100%;
     height: auto !important;
+}
+ .spcaro6>img {
+  height: 240px;
+}
+
+.spcaro6_video{
+  height: 240px;
+  width: auto;
 }
 
 .spcaro6_img{
@@ -99,6 +101,16 @@ p, .spedit{
 
 /*FOR DESKTOP VERs*/
 @media (min-width: 960px){
+
+  .spcaro6>img {
+  height: 410px;
+}
+
+.spcaro6_video{
+  margin-top: 0px !important;
+  width: 100%;
+  height: 100%;
+}
 .img-fluid {
     max-width: 100%;
     height: 285px !important;
@@ -143,6 +155,17 @@ p, .spedit{
     height: 170px !important;
 }
 
+.spcaro6>img {
+  width: 100%;
+  height: 100%;
+}
+
+.spcaro6_video{
+  margin-top: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
 .summary___3soIS {
     padding-top: var(--gl-spacing-0050);
     margin: 0;
@@ -184,65 +207,84 @@ p, .spedit{
         <div class="carousel-item active">
           <div class="col-12">
             <div class="slide-box">
-              <div class="col-3">
-         <div class="spcaro6">
-           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enSG/Images/sustainability-FW22-parleymission-global-launch-hp-teaser-ub22-d-m-t_tcm207-891343.jpg" class="spcaro6_img" style="display: flex">
-           
-         </div>
-         <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">READY, SET, GO</strong></span>
-           <p class="summary___3soIS gl-body spedit">From beginner to marathon addicts, check out support for all kinds of runners</p>
-         </div>
 
-         <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP RUNNING </a>
-         </div>
-      </div> <!-- col-lg-3 end -->
+               
+
+     <!--  ------------------  col-lg-3 start  ----------------- -->
 
       <div class="col-3">
          <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ABTest-Training_tcm143-896416.png" class="spcaro6_img" style="display: flex">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/commercial-fw22-lego-ch1-clp-originals-teaser-carousel-superstar-ftw-d_tcm221-889827.jpg" class="spcaro6_img" style="display: flex">
            
          </div>
          <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">IT'S TRAINING DAY</strong></span>
-           <p class="summary___3soIS gl-body spedit">Look, feel and give your best in HIIT and in the gym</p>
+          <span class="title___3i4il gl-body"><strong class="withhtml">IMAGINE YOUR WORLD</strong></span>
+           <p class="summary___3soIS gl-body spedit">Superstar becomes even more famous with a stylish LEGO® collab.</p>
          </div>
 
          <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP TRAINING </a>
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP NOW </a>
          </div>
       </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
+
+       <!--  ------------------  col-lg-3 start  ----------------- -->
 
       <div class="col-3">
          <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ABTest-Tennis_tcm143-896417.png" class="spcaro6_img" style="display: flex">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/SS22_Adicolor_June_Onsite_Teaser-Card_M_dark_yellow-d_tcm221-906738.jpg" class="spcaro6_img" style="display: flex">
            
          </div>
          <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">BE COURT READY</strong></span>
-           <p class="summary___3soIS gl-body spedit">Stability, speed and winning shots</p>
+          <span class="title___3i4il gl-body"><strong class="withhtml">LIFE IN ADICOLOR</strong></span>
+           <p class="summary___3soIS gl-body spedit">Let them live colorfully.</p>
          </div>
 
          <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP TENNIS </a>
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP NOW </a>
          </div>
       </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
+
+       <!--  ------------------  col-lg-3 start  ----------------- -->
 
       <div class="col-3">
          <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/football-category-exchange_tcm143-903409.png" class="spcaro6_img" style="display: flex">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/x-cat-ss22-summer-shop-glp-kids-tcc_tcm221-898790.jpg" class="spcaro6_img" style="display: flex">
            
          </div>
          <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">THE BEAUTIFUL GAME</strong></span>
-           <p class="summary___3soIS gl-body spedit">Boots for all surfaces and pitch-perfect jerseys</p>
+          <span class="title___3i4il gl-body"><strong class="withhtml">THE SUMMER SHOP</strong></span>
+           <p class="summary___3soIS gl-body spedit">Slide into summer fun with the latest styles.</p>
          </div>
 
          <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP FOOTBALL </a>
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP NOW </a>
          </div>
       </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
+
+       <!--  ------------------  col-lg-3 start  ----------------- -->
+
+      <div class="col-3">
+         <div class="spcaro6">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/xcat-ss22-youth-ageteaser-kglp-teasercarousel-d_tcm221-906741.png" class="spcaro6_img" style="display: flex">
+           
+         </div>
+         <div class="spcaro6_title">
+          <span class="title___3i4il gl-body"><strong class="withhtml">YOUTH</strong></span>
+           <p class="summary___3soIS gl-body spedit">Make the most of sunny summer days in the season's newest styles for 8- to 14-year-olds.</p>
+         </div>
+
+         <div class="spcaro6_button">
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP YOUTH </a>
+         </div>
+      </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
 
 
   
@@ -259,87 +301,85 @@ p, .spedit{
         <div class="carousel-item">
           <div class="col-12">
             <div class="slide-box">
+
               <!--  ------------------  col-lg-3 start  ----------------- -->
+
       <div class="col-3">
          <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ABTest-Hiking_tcm143-896411.png" class="spcaro6_img" style="display: flex">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/x-cat-ss22-summer-shop-glp-kids-tcc_tcm221-898790.jpg" class="spcaro6_img" style="display: flex">
            
          </div>
          <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">THE BEAUTIFUL GAME</strong></span>
-           <p class="summary___3soIS gl-body spedit">Boots for all surfaces and pitch-perfect jerseys</p>
-         </div>
-
-         <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP FOOTBALL </a>
-         </div>
-      </div> <!-- col-lg-3 end -->
-
-      <!--  ------------------  col-lg-3 end  ----------------- -->
-
-             <!--  ------------------  col-lg-3 start  ----------------- -->
-      <div class="col-3">
-         <div class="spcaro6">
-           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enSG/Images/TEASER_CAROUSEL_DUO_tcm207-900439.jpg
-" class="spcaro6_img" style="display: flex">
-           
-         </div>
-         <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">THE BEAUTIFUL GAME</strong></span>
-           <p class="summary___3soIS gl-body spedit">Boots for all surfaces and pitch-perfect jerseys</p>
-         </div>
-
-         <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP FOOTBALL </a>
-         </div>
-      </div> <!-- col-lg-3 end -->
-
-      <!--  ------------------  col-lg-3 end  ----------------- -->
-
-             <!--  ------------------  col-lg-3 start  ----------------- -->
-      <div class="col-3">
-         <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ABTest-Golf_tcm143-896414.png" class="spcaro6_img" style="display: flex">
-           
-         </div>
-         <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">THE BEAUTIFUL GAME</strong></span>
-           <p class="summary___3soIS gl-body spedit">Boots for all surfaces and pitch-perfect jerseys</p>
-         </div>
-
-         <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP FOOTBALL </a>
-         </div>
-      </div> <!-- col-lg-3 end -->
-
-      <!--  ------------------  col-lg-3 end  ----------------- -->
-
-
-
-
-      <!--  ------------------  col-lg-3 start  ----------------- -->
-      <div class="col-3">
-         <div class="spcaro6">
-           <div style="width: 100%; height: 100%; display: flex;" >
-        <video loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="" class="spcaro6_video">
-          <source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/running-fw22-adistar-cs-launch-hp-teaser-carousel-animated-d_ld3i7a.mp4" type="video/mp4"  style="width: 100%; height: 100%; "/>
-
-          </video> 
-          </div>
-           
-         </div>
-         <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">ADISTAR CS
-</strong></span>
-           <p class="summary___3soIS gl-body spedit">Ready, Set, Go. Slow.</p>
+          <span class="title___3i4il gl-body"><strong class="withhtml">THE SUMMER SHOP</strong></span>
+           <p class="summary___3soIS gl-body spedit">Slide into summer fun with the latest styles.</p>
          </div>
 
          <div class="spcaro6_button">
            <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP NOW </a>
          </div>
-      </div> 
+      </div> <!-- col-lg-3 end -->
 
       <!--  ------------------  col-lg-3 end  ----------------- -->
+
+       <!--  ------------------  col-lg-3 start  ----------------- -->
+
+      <div class="col-3">
+         <div class="spcaro6">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/xcat-ss22-youth-ageteaser-kglp-teasercarousel-d_tcm221-906741.png" class="spcaro6_img" style="display: flex">
+           
+         </div>
+         <div class="spcaro6_title">
+          <span class="title___3i4il gl-body"><strong class="withhtml">YOUTH</strong></span>
+           <p class="summary___3soIS gl-body spedit">Make the most of sunny summer days in the season's newest styles for 8- to 14-year-olds.</p>
+         </div>
+
+         <div class="spcaro6_button">
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP YOUTH </a>
+         </div>
+      </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
+      
+              <!--  ------------------  col-lg-3 start  ----------------- -->
+      <div class="col-3">
+         <div class="spcaro6">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/xcat-ss22-children-agetcc-kglp-teasercarousel-d_tcm221-906740.png" class="spcaro6_img" style="display: flex">
+           
+         </div>
+         <div class="spcaro6_title">
+          <span class="title___3i4il gl-body"><strong class="withhtml">CHILDREN
+</strong></span>
+           <p class="summary___3soIS gl-body spedit">Soak up the summer season and days full of play in the latest looks for 4- to 8-year-olds.</p>
+         </div>
+
+         <div class="spcaro6_button">
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP CHILDREN </a>
+         </div>
+      </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
+
+             <!--  ------------------  col-lg-3 start  ----------------- -->
+      <div class="col-3">
+         <div class="spcaro6">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/xcat-ss22-babytodd-agetcc-kglp-teasercarousel-d_tcm221-906739.png
+" class="spcaro6_img" style="display: flex">
+           
+         </div>
+         <div class="spcaro6_title">
+          <span class="title___3i4il gl-body"><strong class="withhtml">BABY & TODDLER
+</strong></span>
+           <p class="summary___3soIS gl-body spedit">Refresh your little one's wardrobe with clothes and shoes made to keep up with them this summer.</p>
+         </div>
+
+         <div class="spcaro6_button">
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP BABY & TODDLER </a>
+         </div>
+      </div> <!-- col-lg-3 end -->
+
+      <!--  ------------------  col-lg-3 end  ----------------- -->
+
+             
 
       
 
@@ -362,3 +402,4 @@ p, .spedit{
   </div>
 </div>
 
+<br>

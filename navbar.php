@@ -194,7 +194,7 @@ li a {
       <!-- ------ end 1st mega menu ----- -->
       <!-- ------ start 2nd mega menu ----- -->
 <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link active a12" href="product.php" data-bs-toggle=""> WOMEN</a>
+        <a class="nav-link active a12" href="women.php" data-bs-toggle=""> WOMEN</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-2 col-6"  style="border-right: 1px solid lightgrey">
@@ -265,7 +265,7 @@ li a {
       <!-- ------ start 3rd mega menu ----- -->
 
       <li class="nav-item dropdown has-megamenu">
-        <a class="nav-link active a12" href="product.php" data-bs-toggle=""> KIDS</a>
+        <a class="nav-link active a12" href="kids.php" data-bs-toggle=""> KIDS</a>
         <div class="dropdown-menu fade-down megamenu " role="menu">
           <div class="row g-3 border_pad_extend">
             <div class="col-lg-3 col-6" style="border-right: 1px solid lightgrey">
@@ -482,12 +482,12 @@ li a {
       </a></li>
 
 
-<link rel="stylesheet" type="text/css" href="https://www.adidas.co.uk/glass/react/d0ca98f/adidas/modern/glass-vendor-adidas.css">
+<!-- <link rel="stylesheet" type="text/css" href="https://www.adidas.co.uk/glass/react/d0ca98f/adidas/modern/glass-vendor-adidas.css"> -->
       <style type="text/css" media="screen">
-        .modal-body h4,h5,p,a,label{
+        /*.modal-body h4,h5,p,a,label{
           font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
         }
-       
+       */
       </style>
 
 

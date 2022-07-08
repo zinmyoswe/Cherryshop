@@ -184,24 +184,56 @@ p, .spedit{
         <div class="carousel-item active">
           <div class="col-12">
             <div class="slide-box">
-              <div class="col-3">
+
+               <!--  ------------------  col-lg-3 start  ----------------- -->
+      <div class="col-3">
          <div class="spcaro6">
-           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enSG/Images/sustainability-FW22-parleymission-global-launch-hp-teaser-ub22-d-m-t_tcm207-891343.jpg" class="spcaro6_img" style="display: flex">
+           <div style="width: 100%; height: 100%; display: flex;" >
+        <video loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="" class="spcaro6_video">
+          <source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/running-fw22-supernova-educate-glp-w-teaser-carousel-3d-d_stj4iw.mp4" type="video/mp4"  style="width: 100%; height: 100%; "/>
+
+          </video> 
+          </div>
            
          </div>
          <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">READY, SET, GO</strong></span>
-           <p class="summary___3soIS gl-body spedit">From beginner to marathon addicts, check out support for all kinds of runners</p>
+          <span class="title___3i4il gl-body"><strong class="withhtml">EARLY ACCESS TO SUPERNOVA 2
+</strong></span>
+           <p class="summary___3soIS gl-body spedit">Enjoy your comfort zone.</p>
          </div>
 
          <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP RUNNING </a>
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP NOW </a>
          </div>
-      </div> <!-- col-lg-3 end -->
+      </div> 
+
+       <!--  ------------------  col-lg-3 start  ----------------- -->
+      <div class="col-3">
+         <div class="spcaro6">
+           <div style="width: 100%; height: 100%; display: flex;" >
+        <video loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="" class="spcaro6_video">
+          <source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/sportswear-FW22-chapter1-global-launch-wglp-teasercardcarousel-d_udjobo.mp4" type="video/mp4"  style="width: 100%; height: 100%; "/>
+
+          </video> 
+          </div>
+           
+         </div>
+         <div class="spcaro6_title">
+          <span class="title___3i4il gl-body"><strong class="withhtml">EARLY ACCESS TO SUPERNOVA 2
+</strong></span>
+           <p class="summary___3soIS gl-body spedit">Enjoy your comfort zone.</p>
+         </div>
+
+         <div class="spcaro6_button">
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP NOW </a>
+         </div>
+      </div> 
+
+     <!--  ------------------  col-lg-3 start  ----------------- -->
 
       <div class="col-3">
          <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ABTest-Training_tcm143-896416.png" class="spcaro6_img" style="display: flex">
+           <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/SG5-Extenstion_FW22_1050x1400_tcm143-904991.jpeg" class="spcaro6_img" style="display: flex">
            
          </div>
          <div class="spcaro6_title">
@@ -214,35 +246,31 @@ p, .spedit{
          </div>
       </div> <!-- col-lg-3 end -->
 
+    
+
+        <!--  ------------------  col-lg-3 start  ----------------- -->
       <div class="col-3">
          <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ABTest-Tennis_tcm143-896417.png" class="spcaro6_img" style="display: flex">
+           <div style="width: 100%; height: 100%; display: flex;" >
+        <video loop="true" autoplay="true"  muted playsinline="" webkit-playsinline="" x5-playsinline="" class="spcaro6_video">
+          <source src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/2360395_-_CAM_Onsite_EU_Running_Product_Assistant_Onsite_Teaser_Carousel_SS22_hvszrf.mp4" type="video/mp4"  style="width: 100%; height: 100%; "/>
+
+          </video> 
+          </div>
            
          </div>
          <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">BE COURT READY</strong></span>
-           <p class="summary___3soIS gl-body spedit">Stability, speed and winning shots</p>
+          <span class="title___3i4il gl-body"><strong class="withhtml">FIND YOUR PERFECT RUNNING SHOES
+</strong></span>
+           <p class="summary___3soIS gl-body spedit">Let us help you find the perfect running shoes - use our guide to get the right pair for you and your activity.</p>
          </div>
 
          <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP TENNIS </a>
+           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">START NOW </a>
          </div>
-      </div> <!-- col-lg-3 end -->
+      </div> 
 
-      <div class="col-3">
-         <div class="spcaro6">
-           <img src="https://cmspreview-res.cloudinary.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/football-category-exchange_tcm143-903409.png" class="spcaro6_img" style="display: flex">
-           
-         </div>
-         <div class="spcaro6_title">
-          <span class="title___3i4il gl-body"><strong class="withhtml">THE BEAUTIFUL GAME</strong></span>
-           <p class="summary___3soIS gl-body spedit">Boots for all surfaces and pitch-perfect jerseys</p>
-         </div>
-
-         <div class="spcaro6_button">
-           <a class="btn btn-link" href="product.php" role="button" style="color: #000; font-weight: bold; text-decoration: underline;">SHOP FOOTBALL </a>
-         </div>
-      </div> <!-- col-lg-3 end -->
+      <!--  ------------------  col-lg-3 end  ----------------- -->
 
 
   

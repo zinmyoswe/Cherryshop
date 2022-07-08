@@ -42,7 +42,7 @@ p, .gl-body, .gl-paragraph {
 
 <br>
    <div class="container " style="max-width: 1280px;">
-    <h1 style="font-weight: bold; font-style: italic;">TRENDING</h1>
+    <h3 style="font-weight: bold; font-style: italic;">TRENDING</h3>
     <div class="row">
 
      <!--  ------------------  col-lg-3 start  ----------------- -->

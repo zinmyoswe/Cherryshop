@@ -120,7 +120,7 @@ p, .gl-body, .gl-paragraph {
 
 <div class="container caro7_impo" style="max-width: 1280px;">
   <div class="row">
-    <h1 style="font-weight: bold; font-style: italic;">BEST OF CHERRYSHOP</h1>
+    <h3 style="font-weight: bold; font-style: italic;">BEST OF CHERRYSHOP</h3>
     <div id="carousel5" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel5" data-slide-to="0" class="active"></li>
@@ -138,7 +138,7 @@ p, .gl-body, .gl-paragraph {
              <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$180 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$180 </span></p>
           </div>
         </div>
            
@@ -162,7 +162,7 @@ p, .gl-body, .gl-paragraph {
            <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$150 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$150 </span></p>
           </div>
         </div>
          </div>
@@ -186,7 +186,7 @@ p, .gl-body, .gl-paragraph {
            <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$180 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$180 </span></p>
           </div>
         </div>
            
@@ -209,7 +209,7 @@ p, .gl-body, .gl-paragraph {
            <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$150 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$150 </span></p>
           </div>
         </div>
          </div>
@@ -244,7 +244,7 @@ p, .gl-body, .gl-paragraph {
              <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$180 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$180 </span></p>
           </div>
         </div>
            
@@ -268,7 +268,7 @@ p, .gl-body, .gl-paragraph {
            <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$150 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$150 </span></p>
           </div>
         </div>
          </div>
@@ -292,7 +292,7 @@ p, .gl-body, .gl-paragraph {
            <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$180 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$180 </span></p>
           </div>
         </div>
            
@@ -315,7 +315,7 @@ p, .gl-body, .gl-paragraph {
            <div class="container">
           <div class="carousel-caption">
 
-            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 80px;  color: #fff;">$150 </span></p>
+            <p class="text-start"><span class="badge bg-light text-dark"  style="  margin-bottom: 0px;  color: #fff;">$150 </span></p>
           </div>
         </div>
          </div>
