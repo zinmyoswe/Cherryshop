@@ -172,7 +172,7 @@ h4{
   color: #c8cbcc;
     background-color: #363738;
     height: 65px;
-   font-size: 15px;
+   font-size: 13px;
 }
 
 .home_con2 a{
@@ -180,6 +180,7 @@ h4{
   margin-top: 3px;
   margin-right: 10px;
   padding: 2px;
+  
 
 }
 @media (max-width: 576px) {

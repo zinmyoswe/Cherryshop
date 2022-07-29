@@ -25,8 +25,7 @@
         <!-- Fontawesome Pro font -->
        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
 
-    
-
+       <link rel="stylesheet" type="text/css" href="css/cherryp.css?v=<?php echo time(); ?>">
 
         <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script> 
 

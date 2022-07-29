@@ -1,0 +1,49 @@
+
+.mt3{
+	margin-top: 20px;
+}
+
+.mt4{
+	margin-top: 25px;
+}
+
+.mt5{
+	margin-top: 30px;
+}
+
+/*------------------ Cart Sidebar ------------------------*/
+.cart_sidebar{
+	/*height: 495px;
+	width: 300px;
+	background-color: #f8f9fa;*/
+}
+
+
+.cart-calculator{
+	margin: 10px;
+	height: auto;
+	border-color: red;
+	
+}
+
+.cart_sidebar2{
+
+	width: 300px;
+
+}
+.cart-fontstyle{
+	font-weight: bold;
+}
+
+.coupon_fr{
+	
+	height: 80px;
+	padding: 2px;
+}
+.coupon_in{
+	margin: 10px;
+	background-color: #fff;
+	height: 50px;
+
+
+}

@@ -154,7 +154,7 @@ h4{
   color: #c8cbcc;
     background-color: #363738;
     height: 65px;
-   font-size: 15px;
+   font-size: 13px;
 }
 
 .home_con2 a{
