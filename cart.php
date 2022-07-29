@@ -40,6 +40,11 @@ a:hover{
    font-weight: 500;
 }
 
+.cartbase2{
+  display: none;
+  
+}
+
 }
 
 /*FOR DESKTOP VERs*/
@@ -51,6 +56,9 @@ a:hover{
 .cart_product_title>a{
    text-decoration: none;
    font-weight: 500;
+}
+.cartbase2{
+  display: block;
 }
 
 }
@@ -64,6 +72,9 @@ a:hover{
 .cart_product_title>a{
    text-decoration: none;
    font-weight: 500;
+}
+.cartbase2{
+  display: block;
 }
 
 }
@@ -147,6 +158,22 @@ a:hover{
           </div>
         </div><!-- each cart item row 1 end -->
         <hr>
+
+        <br>
+        <div class="row cartbase2">
+          <div class="col-6">
+            <div class="d-grid gap-2">
+                  <a href="checkout.php" class="btn btn-dark">Checkout 
+                    <i class="fal fa-long-arrow-right" style="margin-left: 20px;"></i></a>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          
+          <div class="col-5">
+            
+            
+          </div>
+        </div>
       
     <!--   ------------------Cart Left Sidebar end ------------------- -->
       
