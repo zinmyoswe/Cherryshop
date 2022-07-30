@@ -176,7 +176,9 @@
                 
                 <br><br>
 
-                By clicking 'Log In' you agree to our website <a href="">Creators Club Terms & Conditions </a>,  <a href="">Spring Privacy Notice</a> and  <a href="">Terms & Conditions</a>.
+                I have read and accepted adiClub <a href=""> Terms & Conditions </a>and the <a href="">cherryshop Privacy Notice </a>
+
+                
 
                <!--  ----------- form end -------------- -->
                <!-- registerModal modal -->
