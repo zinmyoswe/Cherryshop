@@ -124,9 +124,12 @@
             <p class="checkout_product_title"><a href="" >ESSENTIALS FRENCH TERRY 3-STRIPES FULL-ZIP HOODIE</a>
             </p>
           <p class="checkout_product_title2">COLOR: LEGEND INK / WHITE <br>
-          SIZE: S / Quantity: 1</p>
+          SIZE: S / Quantity: 1<br>
+          $50.00
 
-            $50.00
+          </p>
+
+            
           
           </div>
           
@@ -144,10 +147,12 @@
             <p class="checkout_product_title"><a href="" >ESSENTIALS FLEECE TAPERED CUFF 3-STRIPES JOGGERS</a>
             </p>
           <p class="checkout_product_title2">COLOR: LEGEND INK / WHITE <br>
-          SIZE: S / Quantity: 1</p>
+          SIZE: S / Quantity: 1<br>
+            $38.00
+          </p>
 
          
-            $38.00
+            
           </div>
           
           

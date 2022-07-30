@@ -607,16 +607,27 @@ li a {
 <div class="mb-3">
   <label for="password" class="form-label">Password
    
+   <a href="#" class="text-dark" id="icon-click2" style="margin-left: 300px;">
+    <i class="far fa-eye-slash" id="icon2"></i>
+    SHOW
+  </a>
   </label>
-  <input type="password" class="form-control" id="password" placeholder="Password *">
+  <input type="password" class="form-control" id="password2" placeholder="Password *">
 </div>
+
+<script type="text/javascript" src="js/script_eyetoggle2.js?v=<?php echo time(); ?>"></script>
 
 <div class="mb-3">
   <label for="password" class="form-label">Confirm Password
-   
+   <a href="#" class="text-dark" id="icon-click3" style="margin-left: 240px;">
+    <i class="far fa-eye-slash" id="icon3"></i>
+    SHOW
+  </a>
   </label>
-  <input type="password" class="form-control" id="password" placeholder="Confirm Password *">
+  <input type="password" class="form-control" id="password3" placeholder="Confirm Password *">
 </div>
+
+<script type="text/javascript" src="js/script_eyetoggle3.js?v=<?php echo time(); ?>"></script>
 
 
 <br>
@@ -630,6 +641,8 @@ li a {
 <br>
 
       </div> 
+
+      
       <!-- -------------------modal-body end ------------------------ -->
       
     </div>

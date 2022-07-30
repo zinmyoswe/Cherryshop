@@ -42,7 +42,8 @@
             </div>
             <div class="col-md-4">
                 <br><br>
-                <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SIGN UP FOR FREE <i class="fa fa-arrow-right" style="margin-left: 5px;"></i></a></p>
+                <p>
+                    <a href="#" title="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" class="btn btn-lg btn-dark">SIGN UP FOR FREE <i class="fal fa-long-arrow-right" style="margin-left: 5px;"></i></a></p>
             </div>
             <br><br><br><br>
             
